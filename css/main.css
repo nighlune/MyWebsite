@@ -1,0 +1,202 @@
+html, body {
+	height: 100%;
+	background: url("../img/backyard.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+body h1 {
+	font-family: 'Secular One', sans-serif;
+}
+
+body p {
+	font-family: 'Arimo', sans-serif;
+}
+
+body p.title {
+	font-family: 'Secular One', sans-serif;
+	font-size: 20px;
+}
+
+/* WRAPPER */
+.wrapper {
+min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    padding-bottom: 45px;
+    margin: 0 auto -65px;
+}
+
+/* HEADER */
+.header {
+	background: rgba(0,0,0,.5);
+	min-height: 150px;
+	text-align: center;
+	margin: 0px;
+}
+
+.header .container-fluid h1 {
+	margin: auto;
+	font-size: 72px;
+	color: #b3b3b3;
+	line-height: 150px; /* same as above div height */
+}
+
+/* NAV */
+.nav {
+	/*background-color: #3d3d3d;*/
+	/*background: rgba(0,0,0,.5);*/
+	padding: 10px;
+}
+
+.nav .nav-pills {
+	text-align: center;
+}
+
+.nav .nav-pills li {
+	float: none;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.nav .nav-pills li a, .nav .nav-pills li a:focus {
+	margin: auto;
+	background-color: rgba(0,0,0,.3);
+	font-size: 20px;
+	color: #b3b3b3;
+	/*border: 1px solid #ff8533;
+    border-width: 2px 2px 2px 2px;*/
+    font-family: 'Secular One', sans-serif;
+}
+
+.nav .nav-pills li a:hover {
+	background: #3d3d3d;
+	color: #ffffff;
+}
+
+/* JUMBOTRON */
+body .jumbotron {
+	min-height: 150px;
+	padding: 30px;
+	margin: 0px;
+	background: none;
+	color: #3d3d3d;
+}
+
+.jumbotron ul {
+	list-style: none;
+}
+
+.jumbotron .nav-pills li {
+	float: none;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.jumbotron .nav-pills li a, .jumbotron .nav-pills li a:focus {
+	margin: auto;
+	background-color: rgba(0,0,0,.3);
+	font-size: 20px;
+	color: #b3b3b3;
+	/*border: 1px solid #ff8533;
+    border-width: 2px 2px 2px 2px;*/
+    font-family: 'Secular One', sans-serif;
+}
+
+.jumbotron .nav-pills li a:hover {
+	background: #3d3d3d;
+	color: #ffffff;
+}
+
+/* MAIN */
+.main {
+	padding: 30px;
+	margin: 0px;
+}
+
+.main .col-md-6 {
+	padding: 30px;
+	margin: 10px;
+	background: rgba(0,0,0,.3);
+	font-size: 16px;
+	color: #b3b3b3;
+}
+
+.main .nav-pills li {
+	float: none;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 30px;
+}
+
+.main .nav-pills li a, .main .nav-pills li a:focus {
+	margin: auto;
+	background-color: rgba(0,0,0,.3);
+	font-size: 20px;
+	color: #b3b3b3;
+	/*border: 1px solid #ff8533;
+    border-width: 2px 2px 2px 2px;*/
+    font-family: 'Secular One', sans-serif;
+}
+
+.main .nav-pills li a:hover {
+	background: #3d3d3d;
+	color: #ffffff;
+}
+
+.main ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.main ul li a:hover {
+	font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+	min-height: 65px;
+	background: #3d3d3d;
+	text-align: center;
+}
+
+.footer p {
+	text-decoration: none;
+	color: #b3b3b3;
+	margin: auto;
+	margin-left: 30px;
+	line-height: 65px; /* must be same as height of footer */
+	font-family: 'Secular One', sans-serif;
+	float: left;
+}
+
+.footer .nav-pills li {
+	float: right;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.footer .nav-pills li a, .footer .nav-pills li a:focus {
+	margin: auto;
+	background-color: rgba(0,0,0,.3);
+	font-size: 16px;
+	color: #b3b3b3;
+	/*border: 1px solid #ff8533;
+    border-width: 2px 2px 2px 2px;*/
+    font-family: 'Secular One', sans-serif;
+}
+
+.footer .nav-pills li a:hover {
+	background: #3d3d3d;
+	color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  	.nav-justified > li {
+    	padding-right: 30px;
+    	padding-left: 30px;
+	}
+}
